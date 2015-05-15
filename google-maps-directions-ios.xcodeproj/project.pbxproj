@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24EED961B064910006EDCFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EED951B064910006EDCFD /* AppDelegate.swift */; };
+		D24EED981B064911006EDCFD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EED971B064910006EDCFD /* RootViewController.swift */; };
+		D24EED9A1B064911006EDCFD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EED991B064911006EDCFD /* DataViewController.swift */; };
+		D24EED9C1B064911006EDCFD /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EED9B1B064911006EDCFD /* ModelController.swift */; };
+		D24EED9F1B064911006EDCFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24EED9D1B064911006EDCFD /* Main.storyboard */; };
+		D24EEDA11B064911006EDCFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24EEDA01B064911006EDCFD /* Images.xcassets */; };
+		D24EEDA41B064911006EDCFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24EEDA21B064911006EDCFD /* LaunchScreen.xib */; };
+		D24EEDB01B064911006EDCFD /* google_maps_directions_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24EEDAF1B064911006EDCFD /* google_maps_directions_iosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D24EEDAA1B064911006EDCFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D24EED881B064910006EDCFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24EED8F1B064910006EDCFD;
+			remoteInfo = "google-maps-directions-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D24EED901B064910006EDCFD /* google-maps-directions-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-maps-directions-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24EED941B064910006EDCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24EED951B064910006EDCFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D24EED971B064910006EDCFD /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D24EED991B064911006EDCFD /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D24EED9B1B064911006EDCFD /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		D24EED9E1B064911006EDCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D24EEDA01B064911006EDCFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D24EEDA31B064911006EDCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D24EEDA91B064911006EDCFD /* google-maps-directions-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "google-maps-directions-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24EEDAE1B064911006EDCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24EEDAF1B064911006EDCFD /* google_maps_directions_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = google_maps_directions_iosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24EED8D1B064910006EDCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EEDA61B064911006EDCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24EED871B064910006EDCFD = {
+			isa = PBXGroup;
+			children = (
+				D24EED921B064910006EDCFD /* google-maps-directions-ios */,
+				D24EEDAC1B064911006EDCFD /* google-maps-directions-iosTests */,
+				D24EED911B064910006EDCFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24EED911B064910006EDCFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24EED901B064910006EDCFD /* google-maps-directions-ios.app */,
+				D24EEDA91B064911006EDCFD /* google-maps-directions-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24EED921B064910006EDCFD /* google-maps-directions-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D24EED951B064910006EDCFD /* AppDelegate.swift */,
+				D24EED971B064910006EDCFD /* RootViewController.swift */,
+				D24EED991B064911006EDCFD /* DataViewController.swift */,
+				D24EED9B1B064911006EDCFD /* ModelController.swift */,
+				D24EED9D1B064911006EDCFD /* Main.storyboard */,
+				D24EEDA01B064911006EDCFD /* Images.xcassets */,
+				D24EEDA21B064911006EDCFD /* LaunchScreen.xib */,
+				D24EED931B064910006EDCFD /* Supporting Files */,
+			);
+			path = "google-maps-directions-ios";
+			sourceTree = "<group>";
+		};
+		D24EED931B064910006EDCFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D24EED941B064910006EDCFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D24EEDAC1B064911006EDCFD /* google-maps-directions-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D24EEDAF1B064911006EDCFD /* google_maps_directions_iosTests.swift */,
+				D24EEDAD1B064911006EDCFD /* Supporting Files */,
+			);
+			path = "google-maps-directions-iosTests";
+			sourceTree = "<group>";
+		};
+		D24EEDAD1B064911006EDCFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D24EEDAE1B064911006EDCFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24EED8F1B064910006EDCFD /* google-maps-directions-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24EEDB31B064911006EDCFD /* Build configuration list for PBXNativeTarget "google-maps-directions-ios" */;
+			buildPhases = (
+				D24EED8C1B064910006EDCFD /* Sources */,
+				D24EED8D1B064910006EDCFD /* Frameworks */,
+				D24EED8E1B064910006EDCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google-maps-directions-ios";
+			productName = "google-maps-directions-ios";
+			productReference = D24EED901B064910006EDCFD /* google-maps-directions-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D24EEDA81B064911006EDCFD /* google-maps-directions-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24EEDB61B064911006EDCFD /* Build configuration list for PBXNativeTarget "google-maps-directions-iosTests" */;
+			buildPhases = (
+				D24EEDA51B064911006EDCFD /* Sources */,
+				D24EEDA61B064911006EDCFD /* Frameworks */,
+				D24EEDA71B064911006EDCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24EEDAB1B064911006EDCFD /* PBXTargetDependency */,
+			);
+			name = "google-maps-directions-iosTests";
+			productName = "google-maps-directions-iosTests";
+			productReference = D24EEDA91B064911006EDCFD /* google-maps-directions-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24EED881B064910006EDCFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Reyes Ponce";
+				TargetAttributes = {
+					D24EED8F1B064910006EDCFD = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D24EEDA81B064911006EDCFD = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D24EED8F1B064910006EDCFD;
+					};
+				};
+			};
+			buildConfigurationList = D24EED8B1B064910006EDCFD /* Build configuration list for PBXProject "google-maps-directions-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D24EED871B064910006EDCFD;
+			productRefGroup = D24EED911B064910006EDCFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24EED8F1B064910006EDCFD /* google-maps-directions-ios */,
+				D24EEDA81B064911006EDCFD /* google-maps-directions-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24EED8E1B064910006EDCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EED9F1B064911006EDCFD /* Main.storyboard in Resources */,
+				D24EEDA41B064911006EDCFD /* LaunchScreen.xib in Resources */,
+				D24EEDA11B064911006EDCFD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EEDA71B064911006EDCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24EED8C1B064910006EDCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EED981B064911006EDCFD /* RootViewController.swift in Sources */,
+				D24EED9C1B064911006EDCFD /* ModelController.swift in Sources */,
+				D24EED9A1B064911006EDCFD /* DataViewController.swift in Sources */,
+				D24EED961B064910006EDCFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24EEDA51B064911006EDCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24EEDB01B064911006EDCFD /* google_maps_directions_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D24EEDAB1B064911006EDCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24EED8F1B064910006EDCFD /* google-maps-directions-ios */;
+			targetProxy = D24EEDAA1B064911006EDCFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D24EED9D1B064911006EDCFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24EED9E1B064911006EDCFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D24EEDA21B064911006EDCFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24EEDA31B064911006EDCFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24EEDB11B064911006EDCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D24EEDB21B064911006EDCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24EEDB41B064911006EDCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "google-maps-directions-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D24EEDB51B064911006EDCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "google-maps-directions-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D24EEDB71B064911006EDCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "google-maps-directions-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/google-maps-directions-ios.app/google-maps-directions-ios";
+			};
+			name = Debug;
+		};
+		D24EEDB81B064911006EDCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "google-maps-directions-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/google-maps-directions-ios.app/google-maps-directions-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24EED8B1B064910006EDCFD /* Build configuration list for PBXProject "google-maps-directions-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EEDB11B064911006EDCFD /* Debug */,
+				D24EEDB21B064911006EDCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24EEDB31B064911006EDCFD /* Build configuration list for PBXNativeTarget "google-maps-directions-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EEDB41B064911006EDCFD /* Debug */,
+				D24EEDB51B064911006EDCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D24EEDB61B064911006EDCFD /* Build configuration list for PBXNativeTarget "google-maps-directions-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EEDB71B064911006EDCFD /* Debug */,
+				D24EEDB81B064911006EDCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D24EED881B064910006EDCFD /* Project object */;
+}
